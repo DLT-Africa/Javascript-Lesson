@@ -184,7 +184,10 @@ oldMan >= 80 ? console.log("u can drive") : console.log("u may not be drive");
 
 let age = 20;
 
-let canVote = age < 18 ? "YES you can vote!" : "NO you can't vote";
+ canVote = age < 18 ? "YES you can vote!" : "NO you can't vote";
 console.log(canVote)
 
 
+
+
+// 
