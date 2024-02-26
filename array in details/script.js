@@ -402,6 +402,42 @@ studentName.forEach((student) => {
 
 
 
+// ARRAY SOME AND EVERY
+
+
+
+const box = [1,2,3,4,5,6,7]
+
+// Some checks if some of the properties in an array meets a particular condition
+
+console.log(box.some((el) => {return el < 8}))
+
+// Every checks if all of the properties in an array meets a particular condition
+
+console.log(box.every((el) => {return el < 8}))
+
+
+// ARRAY REDUCE
+
+// loops through the array and return the sum of the array. It takes two properties: a callback function and an initial value. the call back function take two parameters which are accumulator and value,
+
+const boxes = [1,2,3,4,5,6,7,8,9,10]
+
+const answer = boxes.reduce((accumulator, value) => {
+    return accumulator + value
+}, 0)
+
+// 0+1 = 1 => accumulator
+// 1 + 2 = 3 => accumulator
+// 3 + 3 = 6 => accumulator
+// 6 + 4 = 10 => accumulator
+
+
+
+
+console.log(answer)
+
+
 
 
 
