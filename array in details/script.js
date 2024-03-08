@@ -100,7 +100,7 @@
 // const countries = ["Kenya", "Malaysia", "canada", "Qatar", "Nigeria"];
 // console.log(countries)
 
-// countries.splice(3, 0 , "Eygpt", "Ghana", "Moro")
+// countries.splice(3, 3, "Eygpt", "Ghana", "Moro")
 // countries.splice(3, 2, "Eygpt", "Ghana", "Moro")
 // console.log(countries);
 
@@ -118,8 +118,8 @@
 // console.log(drinks)
 
 // /*********************slice() ****************/
-// const men = ["Tunmise", "Kenny", "Soliu", "Bode", "Abee", "HayZ"];
-// console.log(men) 
+const men = ["Tunmise", "Kenny", "Soliu", "Bode", "Abee", "HayZ"];
+console.log(men) 
 
 
 // const newString = "Naheem"
